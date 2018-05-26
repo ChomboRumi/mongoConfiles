@@ -16,7 +16,7 @@ if len(sys.argv)>4:
  file.write("  pidFilePath: "+ sys.argv[3]+'/mongod.pid'+os.linesep)
  file.write("net:"+os.linesep)
  file.write("  port: 26001"+os.linesep)
- file.write("  bindIp:"+ sys.argv[1]+os.linesep)
+ file.write("  bindIp: "+ sys.argv[1]+os.linesep)
  file.write("replication:"+os.linesep)
  file.write("  replSetName: "+ sys.argv[2]+os.linesep)
  file.write("sharding:"+os.linesep)
